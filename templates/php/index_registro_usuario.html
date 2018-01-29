@@ -1,0 +1,127 @@
+
+<!doctype html>
+	<html lan="es">
+
+	<head>
+		<TITLE>Hostal Premiun Santiago-Chile</TITLE>
+		<META CHARSET="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--		<link href="../css/bootstrap.css" rel="stylesheet">
+		<link href="../css/bootstrap-theme.css" rel="stylesheet">		-->
+<!--		<link href="../../css/estilos.css" rel="stylesheet">
+		<link href="../../css/estilosPersonales.css" rel="stylesheet">  -->
+		<link href="../../css/superhero.css" rel="stylesheet">
+		<script src="../../js/jquery.js"></script>
+		<script src="../../js/funciones.js"></script>
+    <script src="../../js/angular.js"></script>
+
+	</head>
+
+<body>
+
+<a name="inicio"></A>
+
+<!-- aqui comienza el HEADER -->
+<header class="header">
+	
+	<div class="container-fluid">
+
+		<script> //beginingOfAll(); </script>
+	</div>
+
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="../../index.html">Inicio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="templates/php/index_registro_usuario.php">Registrate <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Información General</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Redes Sociales</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Escribe aqui tu busquedad...">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit"><b>Busquedad</b></button>
+      <a href="templates/php/index_inicio_sesion.php" class="btn btn-primary">Iniciar Sesión</a>
+    </form>
+  </div>
+</nav>
+<!-- close nav bar -->
+</header>
+
+<body>
+  <main>
+
+<div class="col-md-12">
+    <div class="col-md-6">
+      <form action="index_registro_usuario_2.php" method="post">
+          <fieldset>
+
+        <legend class="hiro" align="center">Registro de Usuario</legend>
+
+          <div class="form-group">
+              <div class="col-md-6" align="left">Nombre *</div>
+              <div class="col-md-6"><input class="form-control" name="nombre" id="nombre" placeholder="Enter Name" type="text" required></div>
+          </div>
+
+          <div class="form-group">
+              <div class="col-md-6" align="left">Apellido *</div>
+              <div class="col-md-6"><input class="form-control" name="apellido" id="apellido" placeholder="Enter Last Name" type="text" required></div>
+          </div>
+
+          <div class="form-group">
+              <div class="col-md-6" align="left">Correo *</div>
+              <div class="col-md-6"><input class="form-control" name="correo" id="correo" placeholder="Enter E-Mail" type="text" required></div>
+          </div>
+
+          <div class="form-group">
+              <div class="col-md-6" align="left">Nombre de Usuario *</div>
+              <div class="col-md-6"><input class="form-control" name="usuario" id="usuario" placeholder="Enter Username" type="text" required></div>
+          </div>
+
+          <div class="form-group">
+              <div class="col-md-6" align="left">Contraseña *</div>
+              <div class="col-md-6"><input class="form-control" name="password" id="password" placeholder="Enter Password" type="password" required></div>
+          </div>
+
+          <div class="form-group">
+              <div class="col-md-6" align="left">Verificar la Contraseña *</div>
+              <div class="col-md-6"><input class="form-control" name="password2" id="password2" placeholder="Password Verify" type="password" required></div>
+          </div>
+
+          <div class="col-md-6" align="center">
+          <button type="submit" id="enviar" class="btn btn-primary">Enviar</button>
+          <button type="reset" class="btn btn-default">Reset</button>
+          </div>
+          </fieldset>
+      </form>
+    </div>
+
+
+  </main>
+<footer class="footer">
+		
+	<div class="col-md-12" align="center">
+		
+		<p class="hiro2">Johannes Vargas<BR/>Caracas-Venezuela</p>
+
+			<p>Hoy es: <br> <script> tiempo(); </script></p><br> 		
+	</div>	
+
+</footer>	
+
+	<script src="../../js/bootstrap.js"></script>
+	<script src="../../js/npm.js"></script> 
+	
+
+</body>
+</HTML>

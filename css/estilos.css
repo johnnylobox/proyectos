@@ -1,0 +1,357 @@
+
+@import 'https://fonts.googleapis.com/css?family=Asap:400,400i,700,700i&subset=latin-ext';
+@import 'https://fonts.googleapis.com/css?family=Patua+One';
+body {font-family: 'Asap', sans-serif;}
+
+header {
+	background:#2c3e50;
+	color:#fff;
+}
+.btn-primary2 {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+	.container {
+		width:996px;
+		margin:0px auto;
+		font-size:1em;
+	}
+
+#noticia, #noticia2, #noticia3, .nota{
+	text-align: justify;
+	color:white;
+	font-weight:bold;
+}
+
+.lectura{
+	text-align: justify;
+	color:white;
+  	background-color: black;
+	font-size: 22px;
+}
+
+.letra{
+
+	text-align: justify;
+	color:white;
+	font-weight:bold;
+	font-size: 12px;
+
+}
+.letra2{
+
+/*	text-align: justify; */
+	color:white;
+/*	font-weight:bold;	
+	font-size: 12px;	*/
+
+}
+
+
+.titulo{
+
+	text-align: center;
+	color:white;
+	font-weight:bold;
+	font-size: 18px;
+
+}
+
+.fondo{
+	background-color: #2E64FE;
+}
+
+	main{
+		background-image: url("../imagenes/Debian.png");
+	}
+
+	section,aside{
+		padding: 10px;
+		background:#ccc;
+		-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;
+	}
+
+	section{
+		float: left;
+		width: 70%;
+	}
+
+	aside{
+		float: right;
+		width: 25%;
+	}
+
+	nav{
+		overflow: hidden;
+	}
+
+	nav ul{
+		list-style-type:none;
+		float:left;
+		padding:0px;
+	}
+
+	nav ul li{
+		float:left;
+		padding:3px 10px;
+		margin:2px;
+		background:#ccccff;
+		-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;
+	}
+
+	footer{
+		background:#035d8d;
+		margin:10px;
+		text-align:center;
+		clear:both;
+	}
+
+	/* para 980px o menos */
+
+	@media screen and (max-width:980px){
+		.container {
+			width:98%;
+		}
+
+		section{
+			width:68%;
+		}
+	}
+#word{
+	color: white;
+	font-weight:bold;
+	font-size: 30px;
+	text-align:center;
+}
+/*banner*/
+ #banner{
+
+ 	border: 2px black solid;
+	background-image: url("../imagenes/opsu2.jpg");
+ 	background-color: white;	
+ 	width: 450px;
+ 	height: 300px;
+ 	position:absolute;
+ 	left: 800px;
+ 	top:400px;
+ 	font-size: 36px;
+ 	text-align: :center;
+
+ }
+
+	/* para 700px o menos */
+
+	@media screen and (max-width:700px){
+
+		aside,section{
+			float:none;
+			width:96%;
+		}
+
+		nav,section{
+			font-size:1.2em;
+		}
+
+		aside{
+			margin-top:5px;
+		}
+
+		nav ul{
+			float:none;
+			clear:both;
+		}
+	}
+
+	/* para 480px o menos */
+
+	@media screen and (max-width:480px){
+
+		aside{
+			display:none;
+		}
+
+		nav, section{
+			font-size:1.5em;
+		}
+
+		section{
+			width:94%;
+		}
+
+		nav ul{
+			float:left;
+			clear:none;
+			width:50%;
+		}
+
+		nav ul li{
+			float:none;
+		}
+	}
+
+h1, h2, h3, h4, h5 {font-family: 'Patua one', sans-serif;}
+h3 {font-size: 20px; color: #666666;}
+
+h1 {font-size: 30px; color: #50a1c9;}
+h2 {font-size: 25px; color: #50a1c9;}
+
+/*.juan-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f304f5;
+}*/
+
+.parrafo-alineado{text-align: justify;}
+.parrafo-alineado2{text-align: justify; color: #4682B4;}
+
+.hiro {font-size: 30px; color: white; text-align:center; font-weight:bold;}
+.hiro2 {font-size: 12px; color: white; text-align:center; font-weight:bold;}
+.cintillo2 {margin-right: 2px;}
+.bck-cintillo {background-color:#ffffff;}
+.margen-slider {margin-bottom:20px; margin-top:120px;}
+.margen-footer {max-width:100%;}
+.fondo {background-color: #ffffff;}
+
+.header{
+	  background-image: url("../imagenes/debian2014.png");
+ /* background-color:#1ff087;*/
+  height: 100px;
+  color: #ffffff;
+  padding: 30px;
+  font-size: 12px;
+}
+.col-lg-3-broly{
+
+	position: center;
+
+	background-image: url("../broly.jpg");
+	width: 25%;
+
+}
+.fondo{ background-image: url("../fondo.jpg"); }
+
+.footer{
+  /*background-image: url("../imagenes/");*/
+ background-color:#2C3249;
+  height: 100px;
+  color: #ffffff;
+  padding: 30px;
+  font-size: 12px;
+}  
+
+.acceso-directo {height:259px;}
+.medico{background-image: url("../imagenes/bk2.png");}
+.documentos{background-image: url("../imagenes/bk3.png");}
+.rrhh {background-image: url("../imagenes/bk1.png");}
+
+.ico {padding-top: 3%;}
+.acceso-directo ul{list-style-type:none;}  
+
+.acceso-directo li {
+  line-height: 28px;
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 1%;
+  z-index: 300;
+}
+
+.acceso-directo li:first-child{margin-top: 3%;}
+
+.acceso-directo ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.acceso-directo ul li a:hover {
+  opacity: 0.5;
+  color: #ffffff;
+}
+
+
+.form-group {
+font-size: 13px;
+padding-bottom: 40px;
+}
+
+.margen {margin-top: 5px;}
+.padding-10{padding: 10px;}
+
+.noticias {
+  padding-bottom:5%;
+  padding-top:2%;
+}
+
+.contenedor-noticia {
+  padding:10px 20px; 
+  text-align: justify;
+  padding-bottom: 40px;
+  color:#666666; 
+  margin-bottom:25px;
+}
+
+.posicion-boton {
+  position:absolute; 
+  bottom:5px; 
+  left:29%;
+  right:29%;
+}
+
+.boton-noticias {
+  background-color:#60bae3; 
+  padding:10px; 
+  margin:10px; 
+  color:#ffffff;
+  text-align: center; 
+  cursor:pointer; 
+  font-weight:bold;
+}
+
+.boton-noticias:hover {
+  background-color:#8aa6c5; 
+  padding:10px; 
+  margin:10px; 
+  color:#ffffff; 
+  cursor:pointer; 
+  font-weight:bold;
+}
+
+
+@media screen and (max-width: 950px) {
+
+.acceso-directo ul li a {
+  font-size: 14px;
+}
+.acceso{padding:0;}
+
+.padding-10 {
+  padding: 0.5%;
+}
+
+}
+
+
+
+@media screen and (max-width: 765px) {
+  .cintillo-hidden{display:none;}
+}
+
+}
+
+/*aspectos generales: bordes y color de fondo de calculadora*/
+.calculadora { border: 3px blue ridge; width: 250px;text-align: center;
+               background-color: #f6f8d8; }
+
+/*pantalla de visualización: bordes, posición, color de fondo, estilo letra.*/
+#textoPantalla { width: 185px; border: 2px black solid; text-align: right; 
+                 position: relative; left: 23px;  padding: 0px 5px;
+                 background-color: white; font-family: "courier new"; 
+                 overflow: hidden;}
+
+/*botones normales: anchura y margen*/
+.calculadora [type=button] { width: 35px; padding: 0;  }
+/*botones especiales*/
+.calculadora input.largo { color: red; width: 60px; }
+

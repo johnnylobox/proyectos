@@ -1,0 +1,32 @@
+#contenedor1 {
+/*	position: absolute;
+	left: 67px;
+	top: 177px;
+	width: 408px;
+	height: 298px;
+	z-index: 1;*/
+}
+#contenedor3 {
+/*	position: absolute;
+	left: 510px;
+	top: 176px;
+	width: 443px;
+	height: 297px;
+	z-index: 2;*/
+}
+
+ul{
+	/*list-style:none;*/
+	
+}
+
+li{
+/*	margin:10px 0;
+	font-size:24px;
+	width:95px; */
+}
+
+.destacar{
+	background-color: red;
+	color:#FFF;
+}
